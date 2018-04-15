@@ -2,7 +2,7 @@
 
 ## Install
 
-`npm install --save-dev express-profiler`
+`npm install --save-dev express-profiler-middleware`
 
 ## Example
 
