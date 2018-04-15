@@ -6,7 +6,7 @@
 
 ## Example
 
-```
+```javascript
 const {ModelBuilder, Middleware, HandlerBuilder} = require('express-profiler');
 
 const mongoose = require('mongoose');
