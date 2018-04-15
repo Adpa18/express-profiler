@@ -1,0 +1,19 @@
+{
+  "name": "express-profiler",
+  "version": "0.0.1",
+  "description": "Profiler for express API",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adpa18/express-profiler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adpa18/express-profiler/issues"
+  },
+  "homepage": "https://github.com/Adpa18/express-profiler#readme"
+}
