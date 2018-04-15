@@ -62,7 +62,7 @@ module.exports = (model) => {
             limits.skip = params.limit * (limits.page - 1);
         }
 
-        model.find(query, null, limits).exec((err, doc) => {
+        model.find(query, null, limits).sort( [['_id', -1]] ).exec((err, doc) => {
             if (err) {
                 return res.status(500).send(err);
             }
